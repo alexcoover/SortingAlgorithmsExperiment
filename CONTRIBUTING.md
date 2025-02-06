@@ -22,9 +22,10 @@
         * Created BubbleSort.java test class.
         * Created HeapSort.java test class.
         * Created RadixSort.java test class.
+* Created README.md file.
 * Reviewed and approved pull requests for all team members.
     * If own pull request, had Version Control Manager (Aune) review and approve.
-* Wrote BubbleSort, HeapSort, and RadixSort section of written report.
+* Wrote BubbleSort, HeapSort, and RadixSort sections of written report.
 
 ### Aune Mitchell
 
@@ -42,6 +43,10 @@
         * Created ReportGenerator.java class.
         * Created GeneratorHelpers.java class.
         * Added JFreeChart dependencies (used in ChartGenerator.java) to libs folder.
+    * Edited Alex's main driver after assistance was requested following Developer Manager code review discussion 
+        * Edited to comply with CheckStyle for Google Java Format.
+        * Made more efficient to reduce code repetition.
+        * Added try/catch block to catch StackOverflow exception (occurring when using quick Sort with first element as pivot on large mostly or fully sorted arrays).
     * Corresponding tests
         * Created QuickSortWithFirstElementPivotTest.java test class.
         * Created QuickSortWithMedianOfThreesPivotTest.java test class.
@@ -53,6 +58,7 @@
 * Merged Developer Manager (Joel) approved pull requests into main.
     * If pull request was from Developer Manager (Joel), reviewed and approved pull requests.
 * Wrote QuickSort section of written report.
+* Wrote algorithm speed comparison section of written report.
 
 ### Zoestra Hammer
 * Development Work
